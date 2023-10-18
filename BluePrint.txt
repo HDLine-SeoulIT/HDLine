@@ -12,3 +12,43 @@ Members
 인스타,페북,블로그 등 링크 LinkUrl varchar2(300),
 지역	region varchar2(40) NOT NULL,
 	PRIMARY KEY (no)
+
+
+모델용(구직)
+MABno number NOT NULL,
+	-- 회원번호
+no number NOT NULL,
+title varchar2(100) NOT NULL,
+content varchar2(500),
+	-- 지역
+region varchar2(40) NOT NULL,
+	currentPhoto varchar2(100),
+	
+디자이너용(구인)
+DABno number NOT NULL,
+	-- 회원번호
+no number NOT NULL,
+title varchar2(100) NOT NULL,
+content varchar2(500),
+	-- 지역
+region varchar2(40) NOT NULL,
+currentPhoto varchar2(100),
+
+
+
+
+
+
+
+
+김민욱 : 
+게시판 및 메세지
+
+박하연 :
+로그인,회원가입, security
+
+방재윤 :
+메인 페이지 및 social login
+
+이서오 : 
+admin페이지
